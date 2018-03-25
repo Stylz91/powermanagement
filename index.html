@@ -5,24 +5,52 @@
     <title>Power Management</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="user.js"></script>
+    <script src="modal.js"></script>
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-sm-3">.col-sm-3</div>
-        <div class="col-sm-3">.col-sm-3</div>
-        <div class="col-sm-3">.col-sm-3</div>
-        <div class="col-sm-3">.col-sm-3</div>
+    <div class="w3-container w3-padding">
+        <div class="w3-bar w3-black">
+            <a href="#" class="w3-bar-item w3-button w3-large w3-padding-16">Main Navigation</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-padding-16">Notizen</a>
+            <a href="#" class="w3-bar-item w3-button w3-large w3-padding-16">Kalender</a>
+            <a href="#" class="w3-bar-item w3-button w3-right w3-red w3-large w3-padding-16">Adminpanel</a>
+        </div>
+        <div class="w3-animate-left w3-margin-top" id="userselectbtn">
+            <button class="w3-btn w3-green w3-xlarge w3-round-large" id="userbtn" style="width:100%">bitte wähle den User</button>
+        </div>
+        <div class="w3-animate-left w3-margin-top w3-center" id="hellouser">
+            <p class="w3-large" id="usergreeting"></p>
+        </div>
+        <div class="w3-modal w3-card-4" id="usermodal" style="display:none;">
+            <div class="w3-modal-content w3-animate-bottom">
+                <header class="w3-container w3-blue">
+                    <span id="closemodal" class="w3-button w3-display-topright">&times;</span>
+                    <h2>Userübersicht</h2>
+                </header>
+                <div class="w3-row">
+                    <div class="w3-half w3-padding w3-display-container">
+                        <img src="avatar_placeholder.png" class="w3-circle userselect" style="width:100%">
+                        <p class="w3-xxlarge w3-display-middle">
+                            <b>Julian</b>
+                        </p>
+                    </div>
+                    <div class="w3-half w3-padding w3-display-container">
+                        <img src="avatar_placeholder.png" class="w3-circle userselect" style="width:100%">
+                        <p class="w3-xxlarge w3-display-middle">
+                            <b>Fabian</b>
+                        </p>
+                    </div>
+                </div>
+                <footer class="w3-container w3-blue w3-padding-24">
+                </footer>
+            </div>
+        </div>
     </div>
-
-    <h1 class="h1">Hallo Welt!</h1>
-
-    <script>
-    </script>
 </body>
 
 </html>
