@@ -7,12 +7,7 @@ $(function () {
     var User1 = new user("Fabian");
     var User2 = new user("Julian");
 
-
-
-    $('#user').text(User1.name)
-
-
-
-
+    $('.username1').text(User1.name)
+    $('.username2').text(User2.name)
 
 });

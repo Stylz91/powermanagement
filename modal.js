@@ -1,5 +1,5 @@
 $(function() {
-    $('#userbtn').on("click", function() {
+    $('#loginbtn').on("click", function() {
         $('#usermodal').css("display", "block");
     });
     $('#closemodal').on("click", function() {
@@ -12,4 +12,5 @@ $(function() {
         setTimeout(function(){$('#usermodal').css("display", "none")},390)
         setTimeout(function(){$('#usermodal').removeClass("w3-animate-out-top");},390)
     })
+    console.log("hallo")
 })
