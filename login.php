@@ -24,9 +24,9 @@
 </style>
 <body>
     <div class="container">
-        <h1 class="h1-responsive text-center py-3">Userlogin</h1>
+        <h1 class="h1-responsive text-center py-3 animated fadeIn">Userlogin</h1>
         <div class="row">
-            <div class="col">
+            <div class="col animated slideInLeft">
                 <div class="card">
                     <div class="view overlay">
                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col animated slideInRight">
                 <div class="card">
                     <div class="view overlay">
                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="card my-5">
+        <div class="card my-5 animated slideInUp">
             <div class="view overlay">
                 <img src="https://mdbootstrap.com/img/Photos/Slides/1.jpg" class="img-fluid" alt="">
                 <div class="mask rgba-white-slight waves-effect waves-light"></div>
