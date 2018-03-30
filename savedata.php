@@ -8,4 +8,4 @@ $startdate = $_POST['startdate'];
 echo $artwork .",". $starttime .",". $startdate;
 
 
-$conn = mysqli_connect('localhost', 'root', 'admin', 'power');
+$conn = mysqli_connect('localhost', 'root', '', 'power');
